@@ -236,12 +236,14 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         }
+        /*
         if (requestCode == REQUEST_PERMISSION_SETTING) {
             if (ActivityCompat.checkSelfPermission(MainActivity.this, permissionsRequired[0]) == PackageManager.PERMISSION_GRANTED) {
                 //Got Permission
                 proceedAfterPermission();
             }
         }
+        */
     }
 
     private boolean validateFName() {
